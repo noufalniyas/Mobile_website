@@ -1,0 +1,32 @@
+.threeOffers {
+    background-color: #EEEEEE;
+}
+
+.check, .guarantee, .warranty {
+    height: 100px;
+}
+
+.warranty {
+    margin-left: 100px;
+}
+
+.guarantee {
+    margin-top: 1rem;
+}
+
+.offers {
+    gap: 1rem;
+    padding: 2rem 0;
+    
+}
+
+@media (max-width:990px) {
+    .warranty {
+        margin-left: 8px;
+    }
+
+    .offer-description p {
+        padding-bottom: 1rem;
+        font-size: 1.5rem
+    }
+}

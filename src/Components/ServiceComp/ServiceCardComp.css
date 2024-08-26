@@ -1,0 +1,136 @@
+.serviceCard {
+    padding-bottom: 2rem;
+}
+
+.card-service{
+    
+    border: 1px solid #ccc;
+    margin: 2rem;
+    margin-top: 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: #000;
+    color: #ccc;
+}
+
+.upperCard h1 {
+    font-size: 1.5rem;
+    
+}
+
+.upperCard img {
+    width: 100%;
+    height: 280px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.lowerCard p {
+    padding: 0 2rem;
+}
+
+/* @media (max-width:1330px) {
+
+    .upperCard img {
+        height: 200px;
+    }
+
+    .card-service{
+        width: 60%;
+        height: 550px;
+    }
+
+    .serviceCard {
+        padding-bottom: 2rem;
+    }
+} */
+
+
+@media (max-width:968px) {
+
+    .upperCard img {
+        height: 250px;
+    }
+
+    .card-service{
+        width: 60%;
+        height: 550px;
+        margin-left: 10rem;
+        margin-top: 0;
+    }
+
+    .lowerCard p {
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
+
+    .cards {
+        margin-bottom: 2rem;
+    }
+}
+
+/* 
+@media(max-width:1000px){
+    .card-service{
+        width: 40%;
+        height: 450px;
+        margin-left: 15rem;
+    }
+} */
+
+
+/* @media (max-width:800px) {
+    .card-service{
+        width: 45%;
+        height: 560px;
+        margin-left: 15rem;
+        margin-top: 0;
+    }
+
+    .lowerCard p{
+        padding: 0 1rem;
+        
+    }
+} */
+
+@media (min-width:1000px) {
+
+    .serviceCard {
+        height: 225vh;
+    }
+    .lowerCard p{
+        font-size: 15px;
+    }
+
+    .lowerCard p span {
+        font-size: 0.9rem;
+    }
+
+    .cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 625px;
+        
+    }
+}
+
+@media (min-width:375px) {
+    .card-service{
+        width: 60%;
+        height: 600px;
+        margin-left: 10rem;
+    }
+
+    .lowerCard p {
+        /* font-size: 1.5rem; */
+        line-height: 1.2;
+    }
+
+    .lowerCard p span {
+        font-size: 1rem;
+    }
+
+}
+

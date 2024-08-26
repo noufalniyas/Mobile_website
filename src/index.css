@@ -1,0 +1,27 @@
+
+
+
+.progress{
+    width: 0%;
+    height: 5px;
+    position: fixed;
+    background-color: #fe4151;
+    top: 0;
+    left: 0;
+    animation: progress 1s linear;
+    transition: 2s;
+    z-index: 1;
+
+}
+
+@keyframes progress {
+    0% {
+       
+        width: 0%;
+    }
+
+    100% {
+       
+        width: 100%;
+    }
+}

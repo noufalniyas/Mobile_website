@@ -1,0 +1,59 @@
+.navbar {
+background-color: #585008;
+opacity: 0.9;
+padding: 2rem;
+
+}
+
+.extra {
+    color: #000;
+}
+
+
+
+.menu {
+    height: 50px;
+    border: none;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.nav-links {
+    font-size: 35px;
+    gap: 40px;
+    font-weight: 500;
+}
+
+
+.Contact-btn {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.Contact-btn:hover {
+    background-color: red;
+    color: #ccc;
+}
+
+.Contact-btn:active {
+    background-color: #ccc;
+   
+}
+
+@media (min-width:992px) {
+    .navbar {
+        overflow-x:hidden ;
+        padding: 0;
+    }
+
+    .nav-links {
+        font-size: 20px;
+        align-items: center;
+    }
+}

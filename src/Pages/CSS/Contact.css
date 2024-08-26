@@ -1,0 +1,82 @@
+.contact-content {
+    background-color: blanchedalmond;
+    height: 60vh;
+    position: relative;
+}
+
+.contact-content p {
+    font-size: 1.5rem;
+}
+
+.form {
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.Firstname, .Phone, .Email, .message {
+    margin: 2rem 1rem;
+}
+
+.Firstname label  {
+    margin-right: 2rem;
+    color: #ccc;
+}
+
+.Phone label {
+    margin-right: 3.5rem;
+    color: #ccc;
+}
+.Email label{
+    margin-right: 4rem;
+    color: #ccc;
+}
+
+.message label {
+ margin-right: 2.5rem;
+ color: #ccc;
+}
+
+.Firstname input, .Phone input, .Email input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    
+   
+}
+.message-text {
+    width: 250px;
+    height: 80px;
+    border: none;
+    outline: none;
+    
+} 
+
+.form-content  {
+   height: 50vh;
+}
+
+.submitBtn {
+    margin-left: 9rem;
+}
+
+.submitBtn button {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    background: linear-gradient(90deg, rgb(215, 95, 115), rgb(201, 45, 71));
+    border: none;
+    outline: none;
+}
+
+
